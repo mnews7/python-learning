@@ -1,6 +1,7 @@
 __author__ = 'Matthew'
 
-# Prints out a list of fibonnaci numbers divisible by 3 between 0 and n
+# Prints out a list of fibonnaci numbers divisible by numbers less than the current Fibonnaci Number 
+# between 0 and n
 
 def fib(n):
     result = []
