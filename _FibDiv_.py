@@ -4,17 +4,23 @@ __author__ = 'Matthew'
 # between 0 and n
 
 def fib(n):
+
+    print('Starting!')
     result = []
 
-    a, b = 0, 1
+    a = 0
+    b = 1
+    # c = 0
     while a < n:
         result.append(a)
         a, b = b, a + b
 
     size = len(result)
-    for num in range(1, size):
+    for num in range(0, size):
         divis = (division(result[num], n))
         print('Fibonacci number', result[num], 'is divisible by', divis)
+    print('There are no more Fibonacci numbers between', n, 'and', result[num])
+    print('All done!')
 
 
 def division(reslist, n):
